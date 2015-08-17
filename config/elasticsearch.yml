@@ -8,3 +8,5 @@ cluster:
 http.enabled: ${ES_HTTP_ENABLED}
 indices.fielddata.cache.size:  40%
 discovery.zen.ping.multicast.enabled: false
+http.cors.enabled: true
+http.cors.allow-origin: "/.*/"
