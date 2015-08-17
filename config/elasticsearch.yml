@@ -1,0 +1,10 @@
+node:
+  data: ${ES_IS_DATA_NODE}
+  master: ${ES_IS_MASTER_NODE}
+
+cluster:
+  name: ${ES_CLUSTER_NAME}
+
+http.enabled: ${ES_HTTP_ENABLED}
+indices.fielddata.cache.size:  40%
+discovery.zen.ping.multicast.enabled: false
